@@ -140,7 +140,7 @@ There are some variables you must set with a terraform.tfvars files. You need to
 
 The Anthos variables include `anthos_version` and `anthos_user_cluster_name`.
  
-Here is a quick command plus sample values to start file for you (make sure you adjust the variables to match your environment, pay specail attention that the `vcenter_iso_name` matches whats in your bucket): 
+Here is a quick command plus sample values to start file for you (make sure you adjust the variables to match your environment, pay special attention that the `vcenter_iso_name` matches whats in your bucket): 
 ```bash 
 cat <<EOF >terraform.tfvars 
 auth_token = "cefa5c94-e8ee-4577-bff8-1d1edca93ed8" 
